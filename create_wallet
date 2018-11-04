@@ -1,0 +1,10 @@
+# Na linha de comando, digitar:
+# Cria carteira
+cleos wallet create -n {{carteira}}
+
+# Lista carteiras
+cleos wallet list
+
+# Fecha carteiras abertas
+cleos wallet lock_all
+
