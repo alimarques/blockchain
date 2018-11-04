@@ -1,0 +1,16 @@
+# Na linha de comando, digitar:
+
+# Gerar dois pares de chaves
+cleos create key
+cleos create key
+
+# Desbloqueia a carteira e informa a chave fornecida durante a criação da carteira
+cleos wallet unlock -n {{carteira}} --password 
+
+# Importa as duas chaves privadas criadas, uma por vez
+cleos wallet import -n {{carteira}} --private-key 
+cleos wallet import -n {{carteira}} --private-key 
+
+# Verifica as chaves
+cleos wallet keys
+
